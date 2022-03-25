@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //Faça um programa que leia 3 valores (considere que não serão informados valores iguais) e escrever a soma dos 2 maiores.//
+        var primeiro = parseInt(prompt("Digite um numero"));
+        var segundo = parseInt(prompt("Digite outro numero"));
+        var terceiro = parseInt(prompt("Digite um terceiro numero"));
+
+        if (primeiro > terceiro && segundo > terceiro){
+            var soma1 = primeiro + segundo;
+            alert("A soma dos dois numeros maiores, " + soma1);
+        } 
+        else if (segundo > terceiro && primeiro > terceiro){
+            var soma2 = segundo + primeiro;
+            alert("A soma dos dois numeros maiores, " + soma2);
+        } 
+        else if (primeiro > segundo && terceiro > segundo){
+            var soma3 = primeiro + terceiro;
+            alert("A soma dos dois numeros maiores, " + soma3);
+        }
+        else if (terceiro > segundo && primeiro > segundo){
+            var soma4 = terceiro + primeiro;
+            alert("A soma dos dois numeros maiores, " + soma4);
+        }
+        else if (segundo > primeiro && terceiro > primeiro){
+            var soma5 = segundo + terceiro;
+            alert("A soma dos dois numeros maiores, " + soma5);
+        }
+        else if (terceiro > primeiro && segundo > primeiro){
+            var soma6 = terceiro + segundo;
+            alert("A soma dos dois numeros maiores, " + soma6);
+        }
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

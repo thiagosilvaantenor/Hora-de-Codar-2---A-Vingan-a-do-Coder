@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // Faça um programa que receba quatro valores informados pelo usuário, mas informe somente o primeiro, o último e o maior de todos eles (considere que todos os números informados serão diferentes)//
+        var primeiro = parseInt(prompt("Digite o primeiro numero"));
+        var segundo = parseInt(prompt("Digite o segundo numero"));
+        var terceiro = parseInt(prompt("Digite o terceiro numero"));
+        var quarto = parseInt(prompt("Digite o quarto numero"));
+
+        document.write("O primeiro numero é: " + primeiro + ", o ultimo número é: " + quarto + ". " );
+
+        //Primeiro//
+        if (primeiro > segundo && terceiro < primeiro) {
+            document.write("o maior deles é: " + primeiro + ". ");
+        } 
+        else if (primeiro > segundo && quarto < primeiro) {
+            document.write("o maior deles é: " + primeiro + ". ");
+        } 
+        //Segundo//
+        else if (segundo > primeiro && quarto < segundo) {
+            document.write("o maior deles é: " + segundo + ". ");
+        }
+        else if (segundo > primeiro && terceiro < segundo) {
+            document.write("o maior deles é: " + segundo + ". ");
+        }
+        
+        //Terceiro//
+        else if (terceiro > primeiro && terceiro > quarto) {
+            document.write("o maior deles é: " + terceiro + ". ");
+        }
+        else if (terceiro > primeiro && quarto < terceiro) {
+            document.write("o maior deles é: " + terceiro + ". ");
+        }
+
+        //Quarto//
+    else if  (quarto > primeiro && segundo < quarto) {
+       document.write("o maior deles é: " + quarto + ". ");
+    }
+    else if  (quarto > primeiro && terceiro < quarto) {
+       document.write("o maior deles é: " + quarto + ". ");
+    }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

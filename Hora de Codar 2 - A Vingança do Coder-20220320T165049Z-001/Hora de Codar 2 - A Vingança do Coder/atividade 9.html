@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //Faça um programa que leia 6 números que o usuário vai informar. Todos os números lidos com valor inferior a 72 devem ser somados. Escreva o valor final da soma efetuada e também todos valores que o usuário informou.//
+
+        var um = parseInt(prompt("Digite o primeiro numero"));
+        var dois = parseInt(prompt("Digite o segundo numero"));
+        var tres = parseInt(prompt("Digite o terceiro numero"));
+        var quatro = parseInt(prompt("Digite o quarto numero"));
+        var cinco = parseInt(prompt("Digite o quinto numero"));
+        var seis = parseInt(prompt("Digite o sexto numero"));
+        var menor = 72;
+
+        if (um <= menor) {
+            var somaum = um;
+        }
+       else if (um > menor) {
+            var somaum = 0;
+        }
+        if (dois <= menor) {
+            var somadois = dois;
+        } 
+        else if (dois > menor) {
+            var somadois = 0;
+    }
+       if (tres <= menor) {
+            var somatres = tres;
+       }
+       else if (tres > menor) {
+            var somatres = 0;
+        }
+        if (quatro <= menor) {
+            var somaqua = quatro;
+        }
+    else if (quatro > menor) {
+            var somaqua = 0;
+        }
+        if (cinco <= menor) {
+            var somacinco = cinco;
+        }
+        else if (cinco > menor) {
+            var somacinco = 0;
+        } 
+        if (seis <= menor) {
+            var somaseis = seis;
+        }
+        else if (seis > menor) {
+            var somaseis = 0;
+        }
+   var resultado = (somaum + somadois + somatres + somaqua + somacinco + somaseis); 
+     document.write("A soma dos números que são menores que 72 é: ", resultado, ", Os números informados foram: " + um + ", " + dois + ", " + tres + ", " + quatro + ", " + cinco + ", " + seis + ".");
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

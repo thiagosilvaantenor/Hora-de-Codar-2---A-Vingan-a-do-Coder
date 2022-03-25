@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // Escreva um programa para ler o número de lados de um polígono regular e a medida do lado (em cm).//
+        var poligono = parseInt(prompt("Digite quantos lados o poligono vai ter"));
+        
+
+        if (poligono == 3) {
+            var lado1 = parseInt(prompt("Digite o valor de um dos lados do poligono, em cm"));
+            var lado2 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var lado3 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var tri = lado1 + lado2 + lado3
+            alert("Seu poligono tem 3 lados, por tanto é um TRIANGULO, com o seguinte perímetro: " + tri + "cm");
+        }
+            else if (poligono == 4) {
+            var lado1 = parseInt(prompt("Digite o valor de um dos lados do poligono, em cm"));
+            var lado2 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var lado3 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var lado4 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var qua = lado1 + lado2 + lado3 + lado4;
+            alert("Seu poligono tem 4 lados, por tanto é um QUADRADO, com a seguinte área: " + qua + "cm");
+            }
+            else if (poligono == 5) {
+            var lado1 = parseInt(prompt("Digite o valor de um dos lados do poligono, em cm"));
+            var lado2 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var lado3 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var lado4 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var lado5 = parseInt(prompt("Digite o valor de outro lado do poligono, em cm"));
+            var pentagono = lado1 + lado2 + lado3 + lado4 + lado5;
+            alert("Seu poligono tem 5 lados, por tanto é um PENTÁGONO, com a seguinte perímetro: " + pentagono + "cm");
+        } 
+        else if (poligono < 3) {
+            alert ("OPA! ISSO TEM MENOS DE 3 LADOS, PORTANTO NÃO É UM POLIGONO");
+        
+        } 
+        else if 
+            (poligono > 5) {
+                alert ("OPA! ISSO TEM MAIS DE 5 LADOS, PORTANTO É UM POLIGONO NÃO IDENTIFICADO");
+        } 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

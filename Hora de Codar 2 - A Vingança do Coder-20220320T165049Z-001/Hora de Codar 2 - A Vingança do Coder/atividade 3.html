@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //Faça um programa para ler 3 valores (considere que não serão informados valores iguais) e escrever o maior deles.//
+        var primeiro = parseInt(prompt("Digite um numero"));
+        var segundo = parseInt(prompt("Digite um segundo numero, diferente do primeiro"));
+        var terceiro = parseInt(prompt("Digite um terceiro numero, diferente do primeiro e do segundo"));
+
+        if (primeiro > segundo && primeiro > terceiro){
+            alert("Dentre os numeros informados "+ primeiro + ", é maior numero");
+        }
+            if (segundo > primeiro && segundo > terceiro){
+            alert("Dentre os numeros informados "+ segundo + ", é maior numero");
+        } 
+        else if (terceiro > primeiro && terceiro > segundo){
+        alert("Dentre os numeros informados "+ terceiro + ", é maior numero");
+    }
+
+    </script>
+</head>
+<body>
+</body>
+</html>

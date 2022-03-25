@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //Um motorista de táxi deseja calcular o rendimento de seu carro na praça.Sabendo-se que o preço do combustível é de R$ 2,90, escreva um programa para ler: a marcação do odômetro (Km) no início do dia, a marcação (Km) no final do dia, o número de litros de combustível gasto e o valor total (R$) recebido dos passageiros. Calcular e escrever: a média do consumo em Km/L e o lucro (líquido) do dia.//
+        var inicio = parseFloat(prompt("Digite a marcação do odometro do inicio do dia"));
+        var final = parseFloat(prompt("Digite a marcação do final do dia"));
+        var litros = parseFloat(prompt("Digite litros de combustível foram gasto"));
+        var valor = parseFloat(prompt("Digite valor total recebido dos passageiros"));
+        var gasolina = 2.90;
+
+        var media_Km_L = ((final - inicio) / litros);
+        var gasto = litros * gasolina;
+        var lucro = gasto - valor;
+        document.write("A média do consumo em Km/L foi, " + media_Km_L + ", já o lucro liquido do dia foi, " + lucro) 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

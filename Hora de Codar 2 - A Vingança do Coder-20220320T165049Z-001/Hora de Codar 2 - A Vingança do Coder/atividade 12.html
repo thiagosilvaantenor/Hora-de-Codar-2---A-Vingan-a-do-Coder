@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // A equipe Mercedes deseja calcular o número mínimo de litros que deverá colocar no tanque de seu carro para que ele possa percorrer um determinado número de voltas até o primeiro reabastecimento.//
+
+        var pistatamanho = parseInt(prompt("Digite o tamanho da pista, em metros:"));
+        var numvoltas = parseInt(prompt("Digite a quantidade de voltas:"));
+        var reabastecimento = parseInt(prompt("Digite o numero de paradas:"));
+        var consumo = parseInt(prompt("Digite o consumo do carro:"));
+       
+
+        var conversaokm = (pistatamanho * numvoltas) / 1000;
+        var minimolitros = (conversaokm / reabastecimento) / consumo;
+        var totallitros = conversaokm *  consumo;
+
+        document.write("O número mínimo de litros necessários para percorrer até o primeiro reabastecimento é : " + minimolitros + "<br>" + "O tamanho da pista é: " + conversaokm + "<br>" + "O total de litros é: " + totallitros); 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

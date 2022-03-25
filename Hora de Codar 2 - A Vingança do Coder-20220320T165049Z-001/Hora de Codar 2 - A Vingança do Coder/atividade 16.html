@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //As maçãs custam R$ 0,30 cada se forem compradas menos do que uma dúzia, e R$ 0,25 se forem compradas pelo menos doze. Escreva um programa que leia o número de maçãs compradas (considere que o usuário informará a quantidade), e calcule e escreva o valor total da compra.//
+        var quantas = parseInt(prompt("Digite a quantidade de maças compradas"));
+        var menor = parseFloat(0.30);
+        var duzia = parseFloat(0.25);
+
+        if (quantas <  12) {
+            var conta1 = parseFloat((quantas * menor));
+            document.write("O valor total da conta foi: " + conta1); 
+        } else {
+            (quantas >= 12)
+            var conta2 = parseFloat((quantas * duzia));
+            document.write("O valor total da conta foi: " + conta2);  
+        } 
+
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

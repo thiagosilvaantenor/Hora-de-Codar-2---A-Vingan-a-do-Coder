@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        // Faça um programa em que o usuário informe 20 valores e no final, escreva o maior e o menor valor lido.//
+        var contagem = 0;
+        var maior = 0;
+        var menor = 0;
+
+        while(contagem < 20){
+        num = parseInt(prompt("Digite um valor" ));
+        contagem++;
+
+        if (num == 0){
+            num = maior;
+            num = menor;
+        }
+        if (num > maior){
+            maior = num;
+        }
+        else if (num < menor){
+            menor = num;
+        }
+    }
+
+    document.write("Dentre os números informados o maior deles foi: " + maior +"<br>" +"E o menor deles foi: " + menor + ".");
+    
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

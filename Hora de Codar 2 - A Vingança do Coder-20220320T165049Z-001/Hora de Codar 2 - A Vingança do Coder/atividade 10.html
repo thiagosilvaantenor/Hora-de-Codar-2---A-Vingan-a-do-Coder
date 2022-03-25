@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <script>
+
+        //Escreva um programa que calcule a média de quatro números informados pelo usuário, mas somente se esses números forem maiores que 0 e menores que 10. No final, se a média for maior que cinco o usuário receberá uma mensagem "Você passou no teste". Em qualquer outra situação, ele receberá uma mensagem de "tente novamente"//
+        var um = parseInt(prompt("Digite o primeiro numero"));
+        var dois = parseInt(prompt("Digite o segundo numero"));
+        var tres = parseInt(prompt("Digite o terceiro numero"));
+        var quatro = parseInt(prompt("Digite o quarto numero"));
+        var menor = 10;
+        var maior = 0; 
+        var somaum = 0;
+        var somadois = 0;
+//Um//
+        if (um > maior) {
+            var somaum = um;
+        }
+        if (um < menor) {
+            var somaum = um;
+        }
+        //Dois//
+        if (dois > maior) {
+            var somadois = dois;
+    }
+    if (dois < menor) {
+            var somadois = dois;
+        }
+//Tres//
+if (tres > maior) {
+            var somatres = tres;
+       }
+       if (tres < menor) {
+        var somatres = tres;
+        }
+        //Quatro//
+        if (quatro > maior) {
+            var somaqua = quatro;
+        }
+    if (quatro < menor) {
+        var somaqua = quatro;
+        }
+
+        var total = 4;
+   var resultado = (somaum + somadois + somatres + somaqua) / total;
+   if (resultado > 5) {
+       alert ( resultado + " Você passou no teste");
+   }
+    if (resultado <= 5) {
+       alert (resultado + " Tente novamente");
+   }
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
