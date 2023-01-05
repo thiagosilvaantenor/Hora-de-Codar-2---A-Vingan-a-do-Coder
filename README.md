@@ -1,4 +1,4 @@
-# Hora-de-Codar-2---A-Vingan-a-do-Coder
+# Hora de Codar 2 A Vingança do Coder
 Atividade de lógica de programação e Javascript, proposta pelo professor Gabriel Augusto, do Instituto PROA para o curso PROPROFISSÃO
 
 <div align=center>
