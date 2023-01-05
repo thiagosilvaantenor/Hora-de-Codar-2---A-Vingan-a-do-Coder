@@ -1,6 +1,11 @@
 # Hora-de-Codar-2---A-Vingan-a-do-Coder
 Atividade de lógica de programação e Javascript, proposta pelo professor Gabriel Augusto, do Instituto PROA para o curso PROPROFISSÃO
+
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+
 Questões:
+
+
 
 1 - Escreva um programa em que o usuário informe dois números utilizando o "prompt". Então escreva em tela o maior deles.
 
